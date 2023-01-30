@@ -1,0 +1,24 @@
+.container{
+    display:flex;
+    flex-direction: column;
+}
+
+p{
+    padding:25px;
+}
+
+.para1{
+    background-color: aquamarine;
+    flex: 1;
+    order: 3;
+ }
+ .para2{
+    background-color: orange;
+    flex: 1;
+    order: 2;
+ }
+ .para3{
+    background-color: violet;
+    flex: 2;
+    order: 1;
+ }
